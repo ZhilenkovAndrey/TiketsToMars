@@ -71,7 +71,7 @@ func (t *Ticket) TicketGeneration() {
 	}
 }
 
-func PrintTickets() {
+func PrintTicket() {
 	var t Ticket
 	fmt.Println()
 	fmt.Println("Spaceline         Days  Trip type    Price")
@@ -81,5 +81,5 @@ func PrintTickets() {
 }
 
 func main() {
-	PrintTickets()
+	PrintTicket()
 }
